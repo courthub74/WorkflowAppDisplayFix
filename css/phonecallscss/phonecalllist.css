@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+* body {
+  height: 100vh;
+}
+* body .container nav {
+  background-color: #243F67;
+  width: 18vw;
+  height: 100vh;
+  position: fixed;
+  transition: all 0.5 ease-in;
+}
+* body .container nav .header {
+  text-align: center;
+}
+* body .container nav .header a h1 {
+  color: white;
+  font-size: 1.5vw;
+  margin: 4vh 0 2vh 0;
+}
+* body .container nav .header a img {
+  width: 8vw;
+  height: 8vw;
+}
+* body .container nav .menu {
+  margin: 8vh 0 0 3vw;
+}
+* body .container nav .menu ul li a {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  line-height: 8vh;
+}
+* body .container nav .menu ul li a .icon {
+  display: flex;
+  flex-direction: row;
+}
+* body .container nav .menu ul li a .icon img {
+  width: 1.7vw;
+  height: 1.7vw;
+  margin: 2.3vh 0 0 0;
+}
+* body .container nav .menu ul li a .icon .item {
+  margin: 0.3vh 0 0 1vw;
+  font-size: 1.3vw;
+}
+* body .container nav .menu ul li a .icon .check {
+  margin: 0 0 -0.5vh 0.3vw;
+}/*# sourceMappingURL=phonecalllist.css.map */

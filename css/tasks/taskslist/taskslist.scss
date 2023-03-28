@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+// COLORS
+$darkblue: #243F67;
+$background: #F3F9FF;
+$crossbuttoncream: #FFF7D6;
+
+// TEXT FIELD COLOR
+$textfield: #4375C0;
+// PHONE NUM COLOR
+$phonefield: #FEFC00;
+// TOPIC FIELD COLOR
+$topicfield: #6cce63;
+// EDIT CREAM
+$editcream: #DEE36D;
+
+// ACTION BUTTON COLORS
+$editbuttongreen: #11B386;
+$crossbuttoncream:#FFF7D6;
+$deletebuttonblue:#3292FA;
+
+// THE PAGE
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    body {
+        height: 100vh;
+        .container {
+            nav {
+                background-color: $darkblue;
+                width: 18vw;
+                height: 100vh;
+                position: fixed;
+                transition: all 0.5 ease-in;
+                // top: 0;
+                // left: 0;
+                .header {
+                    text-align: center;
+                    a {
+                        h1 {
+                            color: white;
+                            font-size: 1.5vw;
+                            margin: 4vh 0 2vh 0;
+                        }
+                        img {
+                            width: 8vw;
+                            height: 8vw;
+                        }
+                    }
+                }
+                .menu {
+                    margin: 8vh 0 0 3vw;
+                    ul {
+                        li {
+                            a {
+                                font-size: 25px;
+                                color: white;
+                                text-decoration: none;
+                                line-height: 8vh;
+                                .icon {
+                                    display: flex;
+                                    flex-direction: row;
+                                    img {
+                                        width: 1.7vw;
+                                        height: 1.7vw;
+                                        margin: 2.3vh 0 0 0;
+                                    }
+                                    .item {
+                                        margin: .3vh 0 0 1vw;
+                                        font-size: 1.3vw;
+                                    }
+                                    .check {
+                                        margin: 0 0 -.5vh .3vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
