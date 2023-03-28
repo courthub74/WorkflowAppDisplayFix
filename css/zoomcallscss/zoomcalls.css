@@ -122,7 +122,7 @@
 }
 * body .container .page .outline .zooms #zoom_items #content #zoomtime {
   color: #FFF7D6;
-  font-size: 1.1rem;
+  font-size: 1vw;
   margin-left: -2vw;
   width: 10vw;
 }
@@ -165,4 +165,13 @@
 * body .container .page .outline .zooms #zoom_items .buttons .edit img {
   width: 2vw;
   height: 2vw;
+}
+* body .container .page .outline .zooms::-webkit-scrollbar {
+  border: 1px solid #4375C0;
+  border-radius: 10px;
+}
+* body .container .page .outline .zooms::-webkit-scrollbar-thumb {
+  background: #4375C0;
+  border: 1px #4375C0 solid;
+  border-radius: 10px;
 }/*# sourceMappingURL=zoomcalls.css.map */

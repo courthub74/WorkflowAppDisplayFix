@@ -143,7 +143,7 @@ $deletebuttonblue:#3292FA;
                                 }
                                 #zoomtime {
                                     color: $crossbuttoncream;
-                                    font-size: 1.1rem;
+                                    font-size: 1vw;
                                     margin-left: -2vw;
                                     width: 10vw;
                                     // background-color: darkgoldenrod;
@@ -196,6 +196,18 @@ $deletebuttonblue:#3292FA;
                                 }
                             }
                         }
+                    }
+                    // zooms scrollbar
+                    .zooms::-webkit-scrollbar {
+                        // background-color: $textfield;
+                        border: 1px solid $textfield;
+                        border-radius: 10px;
+                    }
+                    .zooms::-webkit-scrollbar-thumb {
+                        background: $textfield;
+                        // background: white;
+                        border: 1px $textfield solid;
+                        border-radius: 10px;
                     }
                 }
             }
