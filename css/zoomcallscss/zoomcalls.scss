@@ -102,6 +102,7 @@ $deletebuttonblue:#3292FA;
                     width: 75vw;
                     margin: 3vh 0 0 18vw;
                     padding: 10vh;
+                    overflow-y: scroll;
                     .zooms {
                         display: flex;
                         flex-direction: column;
@@ -197,18 +198,18 @@ $deletebuttonblue:#3292FA;
                             }
                         }
                     }
-                    // zooms scrollbar
-                    .zooms::-webkit-scrollbar {
-                        // background-color: $textfield;
-                        border: 1px solid $textfield;
-                        border-radius: 10px;
-                    }
-                    .zooms::-webkit-scrollbar-thumb {
-                        background: $textfield;
-                        // background: white;
-                        border: 1px $textfield solid;
-                        border-radius: 10px;
-                    }
+                }
+                // zooms scrollbar
+                .outline::-webkit-scrollbar {
+                    margin: 0 20vw 0 0;
+                    border: 1px solid $textfield;
+                    border-radius: 10px;
+                }
+                .outline::-webkit-scrollbar-thumb {
+                    background: $textfield;
+                    margin: 0 20vw 0 0;
+                    border: 1px $textfield solid;
+                    border-radius: 10px;
                 }
             }
         }
