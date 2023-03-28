@@ -76,4 +76,93 @@
   height: 80vh;
   width: 75vw;
   margin: 3vh 0 0 18vw;
+  padding: 10vh;
+}
+* body .container .page .outline .zooms {
+  display: flex;
+  flex-direction: column;
+}
+* body .container .page .outline .zooms #zoom_items {
+  display: flex;
+  margin: 0 0 2vh 0;
+  background-color: #4375C0;
+  padding: 1vw;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+* body .container .page .outline .zooms #zoom_items #content {
+  width: 100%;
+  padding: 2vh;
+}
+* body .container .page .outline .zooms #zoom_items #content input {
+  background-color: #4375C0;
+  border: none;
+  text-align: center;
+}
+* body .container .page .outline .zooms #zoom_items #content input:focus {
+  background-color: #4375C0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+* body .container .page .outline .zooms #zoom_items #content #zoomname {
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  width: 12vw;
+}
+* body .container .page .outline .zooms #zoom_items #content #zoomdate {
+  color: white;
+  font-size: 1vw;
+  margin-left: -2vw;
+  width: 10vw;
+}
+* body .container .page .outline .zooms #zoom_items #content #zoomtime {
+  color: #FFF7D6;
+  font-size: 1.1rem;
+  margin-left: -2vw;
+  width: 10vw;
+}
+* body .container .page .outline .zooms #zoom_items #content #zoomnumber {
+  color: #FEFC00;
+  font-size: 1vw;
+  margin-left: -2vw;
+  width: 10vw;
+}
+* body .container .page .outline .zooms #zoom_items #content #zoomtopic {
+  color: #6cce63;
+  font-weight: bold;
+  font-size: 1vw;
+  width: 10vw;
+  margin: 0 0 0 -1vw;
+}
+* body .container .page .outline .zooms #zoom_items #content #zoomlink {
+  color: white;
+  font-weight: bold;
+  font-size: 1vw;
+  cursor: pointer;
+}
+* body .container .page .outline .zooms #zoom_items .buttons {
+  display: flex;
+  gap: 0.5vw;
+  margin: 0 0 0 -7vw;
+}
+* body .container .page .outline .zooms #zoom_items .buttons .delete {
+  background: none;
+  border: none;
+}
+* body .container .page .outline .zooms #zoom_items .buttons .delete img {
+  width: 2vw;
+  height: 2vw;
+}
+* body .container .page .outline .zooms #zoom_items .buttons .edit {
+  background: none;
+  border: none;
+}
+* body .container .page .outline .zooms #zoom_items .buttons .edit img {
+  width: 2vw;
+  height: 2vw;
 }/*# sourceMappingURL=zoomcalls.css.map */
