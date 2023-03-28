@@ -71,8 +71,8 @@
   margin: 3vh 0 0 17vw;
 }
 * body .container .page .outline {
-  border: 2px solid #243F67;
-  border-radius: 5px;
+  border: 2px solid #4375C0;
+  border-radius: 10px;
   height: 80vh;
   width: 75vw;
   margin: 3vh 0 0 18vw;
@@ -169,12 +169,12 @@
 }
 * body .container .page .outline::-webkit-scrollbar {
   margin: 0 20vw 0 0;
-  border: 1px solid #4375C0;
+  border: 0px solid #4375C0;
   border-radius: 10px;
 }
 * body .container .page .outline::-webkit-scrollbar-thumb {
   background: #4375C0;
   margin: 0 20vw 0 0;
-  border: 1px #4375C0 solid;
+  border: 0px #4375C0 solid;
   border-radius: 10px;
 }/*# sourceMappingURL=zoomcalls.css.map */
